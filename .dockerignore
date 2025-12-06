@@ -1,0 +1,27 @@
+# Environment
+env/
+.env
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+logs/
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Models (opsional jika Anda tidak ingin meng-copy semuanya)
+# jika Anda hanya memakai model yang sudah ada di folder tertentu
+# uncomment jika folder data sangat besar
+data/intent-model/cache/
+data/product-model/cache/
+
+# Git
+.git/
+.gitignore
